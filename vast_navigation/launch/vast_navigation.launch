@@ -1,6 +1,6 @@
 <launch>
     <!-- Arguments -->
-    <arg name="map_file" default="$(find vast_navigation)/maps/mymap.yaml"/> />
+    <arg name="map_file" default="$(find vast_navigation)/maps/mymap.yaml"/>
 
     <!-- Map server -->
     <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
